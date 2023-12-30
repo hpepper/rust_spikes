@@ -1,0 +1,2 @@
+# Using opentelemetry from rust
+
