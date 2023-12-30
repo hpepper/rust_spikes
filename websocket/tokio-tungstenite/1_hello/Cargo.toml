@@ -1,0 +1,15 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.30"
+futures-channel = "0.3.30"
+futures-util = { version = "0.3.30", default-features = false, features = ["sink", "std"] }
+tokio = { version = "1.35.1", default-features = false, features = ["io-std", "macros", "rt-multi-thread", "time"] }
+tokio-tungstenite = "0.21.0"
+url = "2.5.0"
+
